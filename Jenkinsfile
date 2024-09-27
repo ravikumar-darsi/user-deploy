@@ -16,7 +16,7 @@ pipeline {
 
     // Uncomment the parameters block if you need to pass parameters
      parameters {
-        string(name: 'version', defaultValue: '1.2.0', description: 'What is the artifact version?')
+        string(name: 'version', defaultValue: '', description: 'What is the artifact version?')
         string(name: 'environment', defaultValue: 'dev', description: 'Which environment is this?')
         booleanParam(name: 'Destroy', defaultValue: 'false', description: 'What is Destroy?')
         booleanParam(name: 'Create', defaultValue: 'false', description: 'What is Create?')
